@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+    int m1,m2,m3,m4,m5,m;
+    float a;
+    printf("Enter mark of 5 subject each out of 100.\n");
+    printf("*******************************************************\n");
+    printf("Enter value of m1=\n");
+    scanf("%d",&m1);
+    printf("Enter value of m2=\n");
+    scanf("%d",&m2);
+    printf("Enter value of m3=\n");
+    scanf("%d",&m3);
+    printf("Enter value of m4=\n");
+    scanf("%d",&m4);
+    printf("Enter value of m5=\n");
+    scanf("%d",&m5);
+    printf("*******************************************************\n");
+    m=(m1+m2+m3+m4+m5);
+    a=(m)/5;
+    printf("Answer of Total marks=%d\n",m);
+    printf("Answer of Average marks=%f",a);
+}
+   

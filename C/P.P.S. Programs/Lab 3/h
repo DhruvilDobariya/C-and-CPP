@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+    int a,l,b;
+    printf("Enter value of l=");
+    scanf("%d",&l);
+    printf("Enter value of b=");
+    scanf("%d",&b);
+    a=(l*b)/2;
+    printf("Area of triangle=%d",a);    
+}

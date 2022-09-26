@@ -1,0 +1,11 @@
+#include<stdio.h> 
+void main() 
+{ 
+    int h,m,s; 
+    printf("Enter value of seconds="); 
+    scanf("%d",&s); 
+    h=s/3600; 
+    m=(s%3600)/60; 
+    s=((s%3600)%60);
+    printf("Answer of h:m:s=%d:%d:%d",h,m,s); 
+}

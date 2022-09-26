@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+    printf("Dhruvil Dobariya,\n");
+    printf("Dataradi,Rajula,Amreli,\n");
+    printf("365565,\n");
+    printf("8758254499.");
+}

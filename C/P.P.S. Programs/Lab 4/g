@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int y,w,d;
+    printf("Enter value of d=");
+    scanf("%d",&d);
+    y=(d/365);
+    w=(d%365)/7;
+    d=(d%365)%7;
+    printf("Answer is %dyear,%dweek,%dday",y,w,d);
+    return 0;
+}

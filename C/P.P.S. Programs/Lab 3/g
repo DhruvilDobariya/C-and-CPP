@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+  float A,r;
+  printf("Enter value of r");
+  scanf("%f",&r);
+  A=3.14*r*r;
+  printf("Answer is %f",A);
+}
+    
